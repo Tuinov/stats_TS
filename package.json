@@ -1,0 +1,26 @@
+{
+  "name": "stats",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000s\u0000t\u0000a\u0000t\u0000s\u0000_\u0000T\u0000S\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/index.js",
+    "start": "concurrently npm:start:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tuinov/stats_TS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tuinov/stats_TS/issues"
+  },
+  "homepage": "https://github.com/Tuinov/stats_TS#readme",
+  "dependencies": {
+    "concurrently": "^7.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
