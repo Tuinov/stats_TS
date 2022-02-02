@@ -18,8 +18,7 @@ class CsvFileReader {
             .map((row) => {
             return row.split(',');
             //[ '06/04/2019', 'Bournemouth', 'Burnley', '1', '3', 'A', 'M Atkinson' ]
-        })
-            .map(this.mapRow);
+        });
     }
 }
 exports.CsvFileReader = CsvFileReader;
